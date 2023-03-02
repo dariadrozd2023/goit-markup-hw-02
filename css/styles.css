@@ -38,15 +38,15 @@ GREY
 color:#2E2F42;
 }
 .logo :hover { 
-    color:#4D5AE5 
+color:#4D5AE5 
 }
 
 .logo :active{
-color: #4D5AE5;
+color:#4D5AE5;
 }
 
 .logo :focus{
-  color: #4D5AE5;  
+color:#4D5AE5;  
 }
 .nav-link {
 color:#2E2F42;
@@ -61,4 +61,21 @@ color:#2E2F42;
     color: #4D5AE5;
 }
 
+.address{
 
+}
+
+.mail{color: #434455;
+}
+.mail cursor{ align-self: start;}
+.mail :hover{
+    color: #4D5AE5;
+}
+.mail :focus{
+    color: #4D5AE5;
+}
+.mail :active{
+    color: #4D5AE5;
+}
+.tel{color: #434455;
+}
