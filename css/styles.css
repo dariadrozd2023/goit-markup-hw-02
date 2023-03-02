@@ -1,5 +1,5 @@
-body {font-family: 'Roboto', sans-serif;
-}
+body {font-family: 'Roboto 500', sans-serif;
+ color: #2E2F42;;}
 
 font-family: 'Raleway', sans-serif;
 
@@ -7,7 +7,7 @@ font-family: 'Raleway', sans-serif;
 
 
 color 
-iris #4D5AE5
+iris #4D5AE5;
 
 ocean #404BBF;
 
@@ -33,3 +33,32 @@ NAVY BLUE modal
 GREY
 #2E2F42
 70 %
+
+.logo {
+color:#2E2F42;
+}
+.logo :hover { 
+    color:#4D5AE5 
+}
+
+.logo :active{
+color: #4D5AE5;
+}
+
+.logo :focus{
+  color: #4D5AE5;  
+}
+.nav-link {
+color:#2E2F42;
+}
+.nav-link :hover { 
+    color:#4D5AE5 ;
+}
+.nav-link :active{
+    color: #4D5AE5;
+}
+.nav-link :focus{
+    color: #4D5AE5;
+}
+
+
