@@ -1,5 +1,5 @@
 body {font-family: 'Roboto 500', sans-serif;
- color: #2E2F42;;}
+ color: #2E2F42;}
 
 
 
@@ -33,17 +33,18 @@ color:#2E2F42;
 .address{
 }
 
-.mail {font-style: normal;
+.mail {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 0.33;
     letter-spacing: 0.02em;
     color: #434455;}
 .tel {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 0.33;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -56,11 +57,11 @@ color:#2E2F42;
 }
 .mail-li :active{
     color: #4D5AE5;
+   
 }
 
-.tel{color: #434455;
-}
-.tel cursor{ align-self: start;}
+
+.tel{cursor: pointer;} 
 .tel-li :hover{
     color: #4D5AE5;
 }
@@ -72,10 +73,8 @@ color:#2E2F42;
 
 
  .hero{
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 0.33; 
 }
 .hero :hover {  color: #4D5AE5; }
 .hero :active{ color: #4D5AE5;}
@@ -87,24 +86,26 @@ color:#2E2F42;
     align-items: flex-start;
     
   }
+
 .hero-list-item{ 
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;}
+    line-height: 0.33;}
+
+
 .hero-list-item :hover{background: #4D5AE5; color: #ffffff;}
 .hero-list-item :focus{background: #4D5AE5; color: #ffffff;}
 .hero-list-item :active{background: #4D5AE5; color: #ffffff;}
 
-
+.button{ cursor: pointer;}
 
 .gallery{
 
 }
 
 .gallery-title{
-font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 0.33;
 letter-spacing: 0.02em;
 color: #2E2F42;
 
@@ -114,7 +115,7 @@ color: #2E2F42;
 .gallery-subtitle{
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 0.33;
 letter-spacing: 0.02em;
 color: #434455 ;
 }
@@ -123,9 +124,28 @@ color: #434455 ;
 
 
 
+.footer{
+    background-color: #2E2F42;
+    color:#ffffff;}
 
+    .logo-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 0.33;
+letter-spacing: 0.03em;
+color: #F4F4FD;
 
+    }
+.footer-title{
+font-weight: 400;
+font-size: 16px;
+line-height: 0.33;
+letter-spacing: 0.02em;
+color: #E7E9FC;
 
+}
 
 
 
