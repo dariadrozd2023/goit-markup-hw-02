@@ -1,81 +1,131 @@
 body {font-family: 'Roboto 500', sans-serif;
  color: #2E2F42;;}
 
-font-family: 'Raleway', sans-serif;
 
-
-
-
-color 
-iris #4D5AE5;
-
-ocean #404BBF;
-
-NAVY BLUE #2E2F42;
-
-GREEN #31D0AA
-
-
-SLATE #434455
-
-LIGHT SLATE #8E8F99
-
-CORNFLOWER
-#E7E9FC;
-
-CLOUD
-#F4F4FD
-
-NAVY BLUE modal
-#2E2F42
-40 %
-
-GREY
-#2E2F42
-70 %
 
 .logo {
 color:#2E2F42;
 }
-.logo :hover { 
+.nav :hover { 
 color:#4D5AE5 
 }
 
-.logo :active{
+.nav :active{
 color:#4D5AE5;
 }
 
-.logo :focus{
+.nav :focus{
 color:#4D5AE5;  
 }
-.nav-link {
+.nav-link-li {
 color:#2E2F42;
 }
-.nav-link :hover { 
+.nav-link-item :hover { 
     color:#4D5AE5 ;
 }
-.nav-link :active{
+.nav-link-item :active{
     color: #4D5AE5;
 }
-.nav-link :focus{
+.nav-link-item :focus{
     color: #4D5AE5;
 }
 
 .address{
-
 }
 
-.mail{color: #434455;
+.mail {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;}
+.tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .mail cursor{ align-self: start;}
-.mail :hover{
+.mail-li :hover{
     color: #4D5AE5;
 }
-.mail :focus{
+.mail-li :focus{
     color: #4D5AE5;
 }
-.mail :active{
+.mail-li :active{
     color: #4D5AE5;
 }
+
 .tel{color: #434455;
 }
+.tel cursor{ align-self: start;}
+.tel-li :hover{
+    color: #4D5AE5;
+}
+.tel :focus{
+    color: #4D5AE5;
+}
+.tel :active{
+    color: #4D5AE5;}
+
+
+ .hero{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+}
+.hero :hover {  color: #4D5AE5; }
+.hero :active{ color: #4D5AE5;}
+.hero :focus{ color: #4D5AE5;}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+  }
+.hero-list-item{ 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;}
+.hero-list-item :hover{background: #4D5AE5; color: #ffffff;}
+.hero-list-item :focus{background: #4D5AE5; color: #ffffff;}
+.hero-list-item :active{background: #4D5AE5; color: #ffffff;}
+
+
+
+.gallery{
+
+}
+
+.gallery-title{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+
+
+}
+.gallery-subtitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455 ;
+}
+
+
+
+
+
+
+
+
+
+
+
