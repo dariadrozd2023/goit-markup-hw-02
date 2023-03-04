@@ -5,7 +5,29 @@ body {font-family: "Roboto", sans-serif;
 
 
 .logo {
+font-family: 'Raleway' ,sans-serif ;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
 color:#2E2F42;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.logo-span{font-family: 'Raleway' ,sans-serif ;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color:  #4D5AE5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
 }
 .nav :hover { 
 color:#4D5AE5 
