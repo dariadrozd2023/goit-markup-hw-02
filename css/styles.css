@@ -167,6 +167,10 @@ color: var(--iris);
     align-items: flex-start;
     
   }
+  
+
+
+
 .hero :hover {  color: var(--iris); }
 .hero :active{ color: var(--iris);}
 .hero :focus{ color: var(--iris);}
@@ -184,16 +188,33 @@ color: var(--iris);
 
 
 .mainpage-hero{
-    background: #2E2F42;
-    font-size: 56px;
+    background: var(--naviblue);
+    
+}
+.mainpage-hero-title{font-size: 56px;
     line-height: 1,07px;
     text-align: center;
     letter-spacing: 0.02em;
-
+    color:#ffffff;
+    
 }
 
-.button{ cursor: pointer;}
 
+.button{ cursor: pointer;
+   
+}
+.button-hero{ 
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;}
 
 
 
