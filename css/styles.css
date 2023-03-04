@@ -90,34 +90,34 @@ color: var(--iris);
 
 }
 .nav-link-item :hover { 
-    color:var(--iris);
+    color:var(--ocean);
 }
 .nav-link-item :active{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .nav-link-item :focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 
 
 
-}
 
 .address{
+    font-style: normal;
 }
 
 .mail {
-    font-style: normal;
+ 
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate);}
 .tel {
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate);
 }
@@ -126,23 +126,23 @@ color: var(--iris);
     color: var(--iris);
 }
 .mail-li :focus{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .mail-li :active{
-    color:var(--iris);
+    color:var(--ocean);
    
 }
 
 
 .tel{cursor: pointer;} 
 .tel-li :hover{
-    color:var(--iris);
+    color:var(--ocean);
 }
 .tel :focus{
-    color: var(--iris);
+    color:var(--ocean);
 }
 .tel :active{
-    color:var(--iris);}
+    color:var(--ocean);}
 
 
 
