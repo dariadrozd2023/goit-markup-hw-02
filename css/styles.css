@@ -12,12 +12,22 @@
     --grey:#2E2F42 70 %;
 }
 
+
+
+/*---------body--------*/
+
+
+
 body {font-family: "Roboto", sans-serif;
     color: #434455 ;
  }
 
 
 
+
+
+
+/* -------logo---------- */
 .logo {
 font-family: 'Raleway' ,sans-serif ;
 font-weight: 800;
@@ -40,9 +50,24 @@ flex-grow: 0;
     text-transform: uppercase;
     flex: none;
     order: 0;
-    flex-grow: 0;
+    flex-grow: 0;}
    
-}
+    .logo-span-footer{
+        font-family: 'Raleway' ,sans-serif ;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        color:var(--cloud);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+       
+    
+
+
+/* -----------nav----------- */
 .nav :hover { 
 color: var(--iris);
 }
@@ -67,8 +92,7 @@ color:#2E2F42;
     color:var(--iris);
 }
 
-.list{
-    list-style: none
+
 
 }
 
@@ -114,6 +138,18 @@ color:#2E2F42;
     color:var(--iris);}
 
 
+
+
+
+/* -----------hero---------------- */
+
+
+.list{
+    list-style: none}
+.link{
+     text-decoration: none;
+}
+
  .hero{
     font-size: 16px;
     line-height: 1.5; 
@@ -139,6 +175,11 @@ color:#2E2F42;
 
 .button{ cursor: pointer;}
 
+
+
+
+
+/* ------------gallery------------- */
 .gallery{
 
 }
@@ -158,6 +199,12 @@ letter-spacing: 0.02em;
 color:var(--slate);
 }
 
+
+
+
+
+
+/* ---------footer----------- */
 .footer{
     background-color:var(--naviblue);
     color:#ffffff;}
