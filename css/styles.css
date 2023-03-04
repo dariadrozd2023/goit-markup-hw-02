@@ -51,6 +51,9 @@ flex-grow: 0;
     flex: none;
     order: 0;
     flex-grow: 0;}
+    
+
+    .logo link{text-decoration: none;}
    
     .logo-span-footer{
         font-family: 'Raleway' ,sans-serif ;
@@ -79,8 +82,12 @@ color: var(--iris);
 .nav :focus{
 color: var(--iris);  
 }
-.nav-link-li {
-color:#2E2F42;
+.nav-link { 
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--naviblue);
+
 }
 .nav-link-item :hover { 
     color:var(--iris);
