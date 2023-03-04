@@ -134,7 +134,7 @@ color: var(--iris);
 }
 
 
-.tel{cursor: pointer;} 
+.tel , .mail{cursor: pointer;} 
 .tel-li :hover{
     color:var(--ocean);
 }
