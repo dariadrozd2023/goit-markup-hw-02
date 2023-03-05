@@ -272,6 +272,19 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--cornflower);
 }
+.offers{
 
+}
 
+.offers-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: var(--naviblue);
 
+}
+.text{
+line-height: 1.5;
+letter-spacing: 0.02;
+}
