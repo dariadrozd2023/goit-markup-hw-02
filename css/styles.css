@@ -278,15 +278,32 @@ color:var(--cornflower);
 
 .offers-list{
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02;
     color: var(--naviblue);
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.offer-list-item{
+font-weight: 500;
+font-size: 20px;
+line-height: 0.83;
+letter-spacing: 0.02em;
+color: var(--naviblue) ;
+flex: none;
+order: 0;
+flex-grow: 0;
 
 }
 .text{
 line-height: 1.5;
 letter-spacing: 0.02;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--slate)
 }
 .main-gallery-text{
     font-size: 36px;
