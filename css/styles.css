@@ -202,6 +202,14 @@ color: var(--iris);
 
 
 .button{ cursor: pointer;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: var(--iris);
+    cursor: pointer;
+    
    
 }
 .button-hero{ 
