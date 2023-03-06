@@ -261,6 +261,7 @@ color: var(--naviblue);
 
 }
 .team-gellery-text{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -317,7 +318,7 @@ color:var(--cornflower);
 .offer-list-item{
 font-weight: 500;
 font-size: 20px;
-line-height: 0.83;
+line-height:1.2 ;
 letter-spacing: 0.02em;
 color: var(--naviblue) ;
 flex: none;
