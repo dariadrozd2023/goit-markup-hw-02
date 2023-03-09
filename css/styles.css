@@ -36,21 +36,11 @@ line-height: 1.17;
 color:var(--iris);
 letter-spacing: 0.03em;
 text-transform: uppercase;
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
-.logo-span{font-family: 'Raleway' ,sans-serif ;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
+.logo-span{
     color:var(--naviblue);
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    flex: none;
-    order: 0;
-    flex-grow: 0;}
+   }
     
 
     .logo link{text-decoration: none;}
@@ -226,13 +216,14 @@ color: var(--iris);
     color: #FFFFFF;
     cursor: pointer;}
 
+.button-hero :hover{ background-color: var(--ocean);}
 
-
+.button-hero :focus{ background-color: var(--ocean);}
 /* ------------gallery------------- */
 .gallery{
 
 }
-.gallery-top{
+.gallery-top{ background-color: var(--cloud);
 }
 .gallery-middle{}
 .gallery-button{}
@@ -254,7 +245,7 @@ color:var(--slate);
 }
 
 .team-gellery{
-
+background-color:var(--cloud);
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
@@ -305,7 +296,6 @@ color: var(--cloud);
 
 }
     .footer-title{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -330,14 +320,10 @@ font-size: 20px;
 line-height:1.2 ;
 letter-spacing: 0.02em;
 color: var(--naviblue) ;
-flex: none;
-order: 0;
-flex-grow: 0;
+
 
 }
 .text{
-line-height: 1.5;
-letter-spacing: 0.02;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
